@@ -147,8 +147,7 @@ const Publisher: React.FC<PublisherProps> = ({ isEmbedded = false }) => {
                 <div className="bg-white dark:bg-[#232323] p-4 rounded-lg shadow-sm border border-gray-200 dark:border-[#282828]">
                     <label className="block text-xs font-semibold text-gray-500 dark:text-[#888] uppercase tracking-wider mb-3">Select Channels</label>
                     <div className="flex flex-wrap gap-2">
-                        {availablePlatforms.length === 0 && <span className="text-sm text-gray-400 italic">No platforms enabled in Settings > Connections.</span>}
-                        {availablePlatforms.map((p) => (
+                          {availablePlatforms.length === 0 && <span className="text-sm text-gray-400 italic">No platforms enabled in Settings &gt; Connections.</span>}                        {availablePlatforms.map((p) => (
                             <button
                                 key={p}
                                 onClick={() => togglePlatform(p)}
