@@ -117,7 +117,7 @@ const GlobalVision: React.FC = () => {
                     <div className="p-4 bg-gray-50 dark:bg-[#2a2a2a] rounded-lg border border-gray-100 dark:border-[#333]">
                         <p className="text-xs text-gray-500 dark:text-[#888] uppercase tracking-wider mb-1">Engagement Rate</p>
                         <p className="text-2xl font-bold text-gray-900 dark:text-[#ededed]">5.2%</p>
-                        <p className="text-xs text-emerald-600 dark:text-emerald-400 mt-1">Target: > 4.5%</p>
+                        <p className="text-xs text-emerald-600 dark:text-emerald-400 mt-1">Target: &gt; 4.5%</p>
                     </div>
                     <div className="p-4 bg-gray-50 dark:bg-[#2a2a2a] rounded-lg border border-gray-100 dark:border-[#333]">
                         <p className="text-xs text-gray-500 dark:text-[#888] uppercase tracking-wider mb-1">Qualified Leads</p>
